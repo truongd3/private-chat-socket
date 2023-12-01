@@ -1,6 +1,18 @@
 # Private Chat with Socket.IO by Truong Dang
 
-Detail instruction can be found below:
+### Account 1 is online & Account 2 is offline
+
+The status of the two accounts are updated.
+
+![1accoffline](src/img1.png)
+
+### Account 1 is online & Account 2 is online
+
+The status of the two accounts are updated. When account 2 is signed in, the past messages are still there.
+
+![bothonline](src/img2.png)
+
+Detail instructions can be found below:
 
 - [Part I](https://socket.io/get-started/private-messaging-part-1/): initial implementation
 - [Part II](https://socket.io/get-started/private-messaging-part-2/): persistent user ID
